@@ -1,7 +1,7 @@
 provider "azurerm" {
   features {}
 }
-
+// resource group name
 resource "azurerm_resource_group" "aks_rg" {
   name     = "cst8918h09group"
   location = "East US"
